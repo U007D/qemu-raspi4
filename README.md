@@ -43,6 +43,7 @@ export PATH="/usr/local/opt/llvm/bin:$PATH"
 ../configure --cc=clang --cxx=clang++ --host-cc=clang --extra-cflags=-mavx2 --extra-cxxflags="-I/usr/local/opt/llvm/include" --extra-ldflags="-L/usr/local/opt/llvm/lib -L/usr/local/opt/libffi/lib -L/usr/local/opt/llvm/lib -Wl,-rpath,/usr/local/opt/llvm/lib" --target-list=aarch64-softmmu --enable-cocoa
 make
 ```
+
 Executable located at `aarch64-softmmu/qemu-system-aarch64-softmmu`.
 
 ## Other
