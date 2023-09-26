@@ -1,5 +1,4 @@
 # QEMU README
-# ===========
 
 QEMU is a generic and open source machine & userspace emulator and
 virtualizer.
@@ -31,14 +30,12 @@ version 2. For full licensing details, consult the LICENSE file.
 
 
 # Building
-# ========
 
 QEMU is multi-platform software intended to be buildable on all modern
 Linux platforms, OS-X, Win32 (via the Mingw64 toolchain) and a variety
 of other UNIX targets. The simple steps to build QEMU are:
 
 ## MacOS
-## -----
   mkdir build
   cd build
   export PATH="/usr/local/opt/llvm/bin:$PATH"
@@ -46,21 +43,19 @@ of other UNIX targets. The simple steps to build QEMU are:
   make
 
 ## Other
-## -----
   mkdir build
   cd build
   ../configure
   make
 
-Additional information can also be found online via the QEMU website:
+## Additional information can also be found online via the QEMU website:
 
   https://qemu.org/Hosts/Linux
   https://qemu.org/Hosts/Mac
   https://qemu.org/Hosts/W32
 
 
-Submitting patches
-==================
+# Submitting patches
 
 The QEMU source code is maintained under the GIT version control system.
 
@@ -112,8 +107,7 @@ Sending v2:
 Your patch series will be sent with 'v2' tag in the subject and the git tip
 will be tagged as my-feature-v2.
 
-Bug reporting
-=============
+# Bug reporting
 
 The QEMU project uses Launchpad as its primary upstream bug tracker. Bugs
 found when running code built from QEMU git or upstream released sources
@@ -131,8 +125,7 @@ For additional information on bug reporting consult:
   https://qemu.org/Contribute/ReportABug
 
 
-Contact
-=======
+# Contact
 
 The QEMU community can be contacted in a number of ways, with the two
 main methods being email and IRC
