@@ -50,7 +50,7 @@ Executable will be found at `aarch64-softmmu/qemu-system-aarch64`.
 ```bash
 mkdir build
 cd build
-../configure
+../configure --target-list=aarch64-softmmu 
 make
 ```
 
