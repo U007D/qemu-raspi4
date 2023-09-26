@@ -2017,7 +2017,7 @@ void qmp_migrate_set_downtime(double value, Error **errp)
     }
 
     value *= 1000; /* Convert to milliseconds */
-    value = MAX(0, MIN(INT64_MAX, value));
+    value = MAX(0, MIN((double)INT64_MAX, value));
 
     MigrateSetParameters p = {
         .has_downtime_limit = true,

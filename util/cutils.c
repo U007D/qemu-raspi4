@@ -239,10 +239,10 @@ static int do_strtosz(const char *nptr, const char **end,
         goto out;
     }
     /*
-     * Values >= 0xfffffffffffffc00 overflow uint64_t after their trip
+     * Values >= 0xfffffffffffff800 overflow uint64_t after their trip
      * through double (53 bits of precision).
      */
-    if ((val * mul >= 0xfffffffffffffc00) || val < 0) {
+    if ((val * mul > 0xfffffffffffff800) || val < 0) {
         retval = -ERANGE;
         goto out;
     }
