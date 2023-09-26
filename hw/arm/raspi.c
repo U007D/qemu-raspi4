@@ -97,7 +97,7 @@ static const BoardInfo bcm283x_boards[] = {
         .board_id = 0xc42,
         .board_rev = { T_4B, R_1_1, C_BCM2711, M_SONY_UK },
         .ram_size_min = 1 * GiB,
-        .ram_size_max = 4 * GiB,
+        .ram_size_max = 8 * GiB,
     },
 };
 
