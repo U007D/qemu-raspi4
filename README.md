@@ -44,7 +44,7 @@ export PATH="/usr/local/opt/llvm/bin:$PATH"
 make
 ```
 
-Executable will be found at `aarch64-softmmu/qemu-system-aarch64-softmmu`.
+Executable will be found at `aarch64-softmmu/qemu-system-aarch64`.
 
 ## Other
 ```bash
